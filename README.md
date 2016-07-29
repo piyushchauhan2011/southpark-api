@@ -44,3 +44,9 @@ CREATE TABLE users (
 1. POST to `http://localhost:3000/auth/signup` with `email` and `password` using postman to signup
 2. POST to `http://localhost:3000/auth/login` with `email` and `password` using postman to login
 3. GET to `http://localhost:3000/users` with Headers set to `Authorization`: `Bearer <token>` to get all the users from database (Authenticated route)
+
+### Debugging snapshots
+
+![screen shot 2016-07-30 at 7 27 14 am](https://cloud.githubusercontent.com/assets/693487/17263935/27b3c450-5627-11e6-8e58-369f3e30e464.png)
+
+![screen shot 2016-07-30 at 7 26 02 am](https://cloud.githubusercontent.com/assets/693487/17263936/2a3e8642-5627-11e6-8b5a-bcf93ab19f1c.png)
