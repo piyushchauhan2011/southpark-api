@@ -38,3 +38,9 @@ CREATE TABLE users (
   PRIMARY KEY (id)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 ```
+
+### Sample API routes
+
+1. POST to `http://localhost:3000/auth/signup` with `email` and `password` using postman to signup
+2. POST to `http://localhost:3000/auth/login` with `email` and `password` using postman to login
+3. GET to `http://localhost:3000/users` with Headers set to `Authorization`: `Bearer <token>` to get all the users from database (Authenticated route)
